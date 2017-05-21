@@ -23,7 +23,7 @@ data = np.array(df)
 name2index_cell = get_name2index_cell()
 name2index_drug = get_name2index_drug()
 
-f1=open('./submission-v5.6M_drug_pair.csv', 'w+')
+f1=open('./submission-v5-2.6M_drug_pair.csv', 'w+')
 print >>f1, '"SampleID","ComparisonValue"'
 # end prediction
 
